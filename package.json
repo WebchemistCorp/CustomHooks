@@ -1,15 +1,20 @@
 {
   "name": "custom-hooks",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "Webchemist's Custom Hooks",
   "author": "WebchemistGenn",
   "license": "MIT",
-  "repository": "WebchemistCorp/CustomHooks",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
   "engines": {
     "node": ">=10"
+  },
+  "repository": {
+    "url": "git@github.com:WebchemistCorp/CustomHooks.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@WebchemistCorp"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
