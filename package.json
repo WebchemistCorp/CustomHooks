@@ -1,6 +1,6 @@
 {
-  "name": "custom-hooks",
-  "version": "1.0.0",
+  "name": "@webchemistcorp/custom-hooks",
+  "version": "0.0.0",
   "description": "Webchemist's Custom Hooks",
   "author": "WebchemistGenn",
   "license": "MIT",
@@ -11,10 +11,11 @@
     "node": ">=10"
   },
   "repository": {
+    "type": "git",
     "url": "git@github.com:WebchemistCorp/CustomHooks.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@WebchemistCorp"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",

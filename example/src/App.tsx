@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { useInput } from 'custom-hooks'
-import 'custom-hooks/dist/index.css'
+import { useInput } from '@webchemistcorp/custom-hooks'
+import '@webchemistcorp/custom-hooks/dist/index.css'
 
 const App = () => {
   const a = useInput()

@@ -4,12 +4,20 @@
 
 - useInput
 - useQueryString
-- use
+- useFetch
+
+## Before
+
+```
+vi ~/.npmrc
+
+@webchemistgenn:registry=https://npm.pkg.github.com/
+```
 
 ## Install
 
 ```bash
-npm install --save custom-hooks
+npm install --save @webchemistcorp/custom-hooks
 ```
 
 ## Usage
@@ -17,7 +25,7 @@ npm install --save custom-hooks
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'custom-hooks'
+import MyComponent from '@webchemistcorp/custom-hooks'
 import 'custom-hooks/dist/index.css'
 
 const Example: React.FC = () => {
