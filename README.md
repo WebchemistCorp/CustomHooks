@@ -11,7 +11,7 @@
 ```
 vi ~/.npmrc
 
-@webchemistgenn:registry=https://npm.pkg.github.com/
+@webchemistcorp:registry=https://npm.pkg.github.com/
 ```
 
 ## Install
