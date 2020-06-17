@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { useInput } from '@webchemistcorp/custom-hooks'
-import '@webchemistcorp/custom-hooks/dist/index.css'
+import { useInput, useFetch } from '@webchemistcorp/custom-hooks'
 
 const App = () => {
   const a = useInput()
-  console.log(a)
+  const b = useFetch()
+  console.log(a, b)
   return <div>a</div>
 }
 
