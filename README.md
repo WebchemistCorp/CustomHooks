@@ -2,7 +2,7 @@
 
 ## List
 
-- useInput
+- useInput : validate도 추가하여 requied를 붙이게 되면 자동으로 체크합니다.
 - useQueryString
 - useFetch
 
